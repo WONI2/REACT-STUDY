@@ -1,6 +1,10 @@
 // import logo from './logo.svg';
 // import './App.css';
-import SayHello from './SayHello';
+// import SayHello from './SayHello';
+
+import ChangeEvent from "./component/chap01_event/ChangeEvent";
+import ClickEvent from "./component/chap01_event/ClickEvent";
+import SubmitEvent from "./component/chap01_event/SubmitEvent";
 
 function App() {
   
@@ -19,25 +23,25 @@ function App() {
   
   // ()는 jsx의 영역. 이 안에서는 스크립트코드를 직접 쓸 수 없음. 사용하려면 {}를 써야하는데, 변수나 함수호출문만 사용 가능
 
-const looping = () => {
-const helloList = [];
+// const looping = () => {
+// const helloList = [];
 
-  for(let i = 0; i< 5; i++ ){
-    helloList.push(<SayHello />);
+//   for(let i = 0; i< 5; i++ ){
+//     helloList.push(<SayHello />);
 
-  }
-  return helloList;
-}
+//   }
+//   return helloList;
+// }
 
 // {}안에 함수 호출문이나 변수 참조를 할 수 있음
 
   return (
    
-
   <>
-    { looping() }
+      
     
-    
+<SubmitEvent />
+
   </>
 
     );
