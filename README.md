@@ -18,3 +18,6 @@ $ npm start
 ```
 - http://localhost:3000 에서 프론트엔드 서버 실행
 
+## git clone 받을 때
+- '$ npm install' 명령을 터미널에서 실행하여 라이브러리 설치.(clone 시 최초 1번만) 
+- node_modules 가 생성되는 것 확인하고 진행할 것  

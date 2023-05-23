@@ -3,11 +3,12 @@
 import React from "react";
 
 // 캄포넌트 렌더링의 조각 
-function SayHello() {
+function SayHello(props) {
     return (
 
     <div>
       <p>hello</p>
+      {props.children}<br/>
       <span>bye</span>
     </div>
 
